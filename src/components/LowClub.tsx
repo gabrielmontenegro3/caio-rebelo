@@ -522,7 +522,7 @@ const NotificationCard = ({ notification }: { notification: Notification }) => {
         top: notification.position.top,
         bottom: notification.position.bottom ? (isMobile ? '15%' : notification.position.bottom) : undefined,
         left: notification.position.left,
-        right: notification.position.right,
+        right: notification.position.right ? (notification.id === 4 && !isMobile ? '25%' : notification.position.right) : undefined,
         zIndex: notification.zIndex || 10,
         perspective: '1000px',
         transformStyle: 'preserve-3d',
