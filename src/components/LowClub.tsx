@@ -306,14 +306,14 @@ const FeatureBox = ({ icon, text }: { icon: React.ReactNode; text: string }) => 
             </div>
           </div>
           {/* Texto abaixo do ícone */}
-          <p className="text-[#D4AF37] font-medium text-base md:text-lg leading-tight text-left">
+          <p className="text-black font-medium text-base md:text-lg leading-tight text-left">
             {text}
           </p>
         </div>
         
         {/* Seta à direita */}
         <div className="flex-shrink-0 ml-4">
-          <ArrowLeft className="w-5 h-5 text-[#D4AF37] group-hover:-translate-x-1 transition-transform" />
+          <ArrowLeft className="w-5 h-5 text-black group-hover:-translate-x-1 transition-transform" />
         </div>
       </div>
     </div>
